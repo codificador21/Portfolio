@@ -383,6 +383,8 @@ body{
     top: 0;
     left: 0;
     background: white;
+    z-index: 99;
+    margin-bottom: 30px;
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
@@ -414,7 +416,7 @@ body{
 
 .frontside .card,
 .backside .card {
-    min-height: 312px;
+    max-height: 312px;
     background-color: #0c0c0c;
 }
 
